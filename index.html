@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Makuru Crops Company</title>
+  <meta name="description" content="Makuru Crops Company, Arusha Tanzania — maize, beans, cowpeas, lentils. Crop farming, farm management, irrigation and produce distribution." />
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="wrap nav-row">
+      <a href="#home"><img class="logo" src="images/logo.jpg" alt="Makuru Crops Company" /></a>
+      <nav class="nav-links">
+        <a href="#home" data-i18n="navHome">Home</a>
+        <a href="#about" data-i18n="navAbout">About Us</a>
+        <a href="#products" data-i18n="navProducts">Products</a>
+        <a href="#services" data-i18n="navServices">Services</a>
+        <a href="#gallery" data-i18n="navGallery">Gallery</a>
+        <a href="#contact" data-i18n="navContact">Contact</a>
+        <div class="lang" role="group" aria-label="Language">
+          <button type="button" data-lang="en" class="active">EN</button>
+          <button type="button" data-lang="sw">SW</button>
+        </div>
+        <a class="btn btn-forest" data-wa="waHello" href="https://wa.me/255798235670" target="_blank" rel="noopener noreferrer">
+          +255 798 235 670
+        </a>
+      </nav>
+      <div class="nav-actions">
+        <div class="lang" role="group" aria-label="Language">
+          <button type="button" data-lang="en" class="active">EN</button>
+          <button type="button" data-lang="sw">SW</button>
+        </div>
+        <button class="menu-btn" id="menuBtn" type="button" aria-label="Menu">☰</button>
+      </div>
+    </div>
+    <nav class="mobile-nav" id="mobileNav">
+      <a href="#home" data-i18n="navHome">Home</a>
+      <a href="#about" data-i18n="navAbout">About Us</a>
+      <a href="#products" data-i18n="navProducts">Products</a>
+      <a href="#services" data-i18n="navServices">Services</a>
+      <a href="#gallery" data-i18n="navGallery">Gallery</a>
+      <a href="#contact" data-i18n="navContact">Contact</a>
+      <a class="btn btn-wa" data-wa="waHello" href="https://wa.me/255798235670" target="_blank" rel="noopener noreferrer">WhatsApp +255 798 235 670</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <img class="bg" src="images/hero-sunset.jpg" data-i18n-alt="heroAlt" alt="Farm tractor working a field at sunset" />
+    <div class="shade"></div>
+    <div class="wrap content">
+      <p class="kicker" data-i18n="heroKicker">Quality crops. Reliable supply.</p>
+      <h1 data-i18n="heroTitle">Growing quality crops for a better tomorrow</h1>
+      <p class="lead" data-i18n="heroLead">Makuru Crops Company produces and distributes maize, beans, cowpeas, and lentils — with farming, irrigation, and farm management support.</p>
+      <div class="hero-actions">
+        <a class="btn btn-paper" href="#products" data-i18n="viewProducts">View products</a>
+        <a class="btn btn-outline" data-wa="waOrder" href="https://wa.me/255798235670" target="_blank" rel="noopener noreferrer" data-i18n="orderWhatsapp">Order on WhatsApp</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="cream">
+    <div class="about-banner">
+      <p class="kicker" data-i18n="aboutKicker">About us</p>
+      <h2 data-i18n="harvestFuture">We harvest the future</h2>
+    </div>
+    <div class="wrap about-grid">
+      <img src="images/about-field.jpg" alt="Farm fields" />
+      <div>
+        <h3 data-i18n="aboutTitle">Dedicated to honest farming and dependable produce</h3>
+        <p class="muted" style="margin-top:16px" data-i18n="aboutP1"></p>
+        <p class="muted" style="margin-top:12px" data-i18n="aboutP2"></p>
+      </div>
+    </div>
+    <div class="wrap">
+      <article class="founder">
+        <p class="kicker" data-i18n="founderKicker">Leadership</p>
+        <h3 data-i18n="founderName">James Makuru</h3>
+        <p class="muted" data-i18n="founderRole">Founder & Chief Executive Officer</p>
+        <blockquote data-i18n="founderQuote"></blockquote>
+        <p class="muted" style="margin-top:16px;max-width:48rem" data-i18n="founderBio"></p>
+      </article>
+    </div>
+  </section>
+
+  <section class="section" id="products">
+    <div class="wrap">
+      <header class="center">
+        <p class="kicker" data-i18n="productsKicker">Products</p>
+        <h2 data-i18n="productsTitle">Crops we deal in</h2>
+        <p class="muted" style="margin-top:12px" data-i18n="productsLead"></p>
+      </header>
+      <div class="products">
+        <article class="card"><img src="images/maize.jpg" alt="Maize" /><div class="pad"><h3 data-i18n="maize">Maize</h3><p class="muted" data-i18n="maizeText"></p></div></article>
+        <article class="card"><img src="images/beans.jpg" alt="Beans" /><div class="pad"><h3 data-i18n="beans">Beans</h3><p class="muted" data-i18n="beansText"></p></div></article>
+        <article class="card"><img src="images/cowpeas.jpg" alt="Cowpeas" /><div class="pad"><h3 data-i18n="cowpeas">Cowpeas</h3><p class="muted" data-i18n="cowpeasText"></p></div></article>
+        <article class="card"><img src="images/lentils.jpg" alt="Lentils" /><div class="pad"><h3 data-i18n="lentils">Lentils</h3><p class="muted" data-i18n="lentilsText"></p></div></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section cream" id="services">
+    <div class="wrap">
+      <header class="center">
+        <p class="kicker" data-i18n="servicesKicker">Services</p>
+        <h2 data-i18n="servicesTitle">From field to market</h2>
+      </header>
+      <div class="services">
+        <article class="service">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M7 20h10"/><path d="M12 20V10"/><path d="M12 10c2-4 6-4 8-2-3 1-4 4-4 6"/><path d="M12 10c-2-4-6-4-8-2 3 1 4 4 4 6"/></svg>
+          <h3 style="margin-top:16px" data-i18n="cropFarming">Crop Farming</h3>
+          <p class="muted" data-i18n="cropFarmingText"></p>
+        </article>
+        <article class="service">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="8" y="2" width="8" height="4" rx="1"/><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><path d="M12 11h4"/><path d="M12 16h4"/><path d="M8 11h.01"/><path d="M8 16h.01"/></svg>
+          <h3 style="margin-top:16px" data-i18n="farmMgmt">Farm Management</h3>
+          <p class="muted" data-i18n="farmMgmtText"></p>
+        </article>
+        <article class="service">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 22a7 7 0 0 0 7-7c0-2-1-3.9-3-5.5s-3.5-4-4-6.5c-.5 2.5-2 4.9-4 6.5C6 11.1 5 13 5 15a7 7 0 0 0 7 7z"/></svg>
+          <h3 style="margin-top:16px" data-i18n="irrigation">Irrigation</h3>
+          <p class="muted" data-i18n="irrigationText"></p>
+        </article>
+        <article class="service">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2"/><path d="M15 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.62L16.3 9.4a1 1 0 0 0-.78-.4H14"/><circle cx="17" cy="18" r="2"/><circle cx="7" cy="18" r="2"/></svg>
+          <h3 style="margin-top:16px" data-i18n="distribution">Produce Distribution</h3>
+          <p class="muted" data-i18n="distributionText"></p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="gallery">
+    <div class="wrap">
+      <header class="center">
+        <p class="kicker" data-i18n="galleryKicker">Gallery</p>
+        <h2 data-i18n="galleryTitle">Fields and harvests</h2>
+      </header>
+      <div class="gallery">
+        <div class="wide"><img class="poster" src="images/gallery-team.jpg" alt="Makuru Crops team" /></div>
+        <img class="cover" src="images/hero-sunset.jpg" alt="Sunset tractor" />
+        <img class="cover" src="images/about-field.jpg" alt="Crop fields" />
+        <img class="cover" src="images/maize.jpg" alt="Maize" />
+        <img class="cover" src="images/gallery-harvest.jpg" alt="Harvest" />
+        <img class="cover" src="images/cowpeas.jpg" alt="Cowpeas" />
+        <img class="cover" src="images/lentils.jpg" alt="Lentils" />
+      </div>
+    </div>
+  </section>
+
+  <section class="section cream" id="contact">
+    <div class="wrap contact-grid">
+      <div>
+        <p class="kicker" data-i18n="contactKicker">Contact</p>
+        <h2 data-i18n="contactTitle">Talk to Makuru Crops</h2>
+        <p class="muted" style="margin-top:16px" data-i18n="contactLead"></p>
+        <ul class="contact-list">
+          <li>
+            <strong><span data-i18n="location">Location</span></strong>
+            <span class="muted" data-i18n="locationValue">Arusha, Tanzania</span>
+          </li>
+          <li style="flex-direction:column">
+            <strong data-i18n="phone">Phone / WhatsApp</strong>
+            <a data-wa="waInquire" href="https://wa.me/255798235670" target="_blank" rel="noopener noreferrer">+255 798 235 670</a>
+          </li>
+          <li style="flex-direction:column">
+            <strong data-i18n="email">Email</strong>
+            <a href="mailto:makurucrops@gmail.com">makurucrops@gmail.com</a>
+          </li>
+        </ul>
+        <a class="btn btn-wa" style="margin-top:28px" data-wa="waInquire" href="https://wa.me/255798235670" target="_blank" rel="noopener noreferrer" data-i18n="openWhatsapp">Open WhatsApp</a>
+      </div>
+      <form class="box" id="contactForm">
+        <div class="form-row">
+          <label><span data-i18n="fullName">Full name</span><input required name="name" /></label>
+          <label><span data-i18n="subject">Subject</span>
+            <select name="subject">
+              <option data-i18n="subGeneral">General inquiry</option>
+              <option data-i18n="subProducts">Products</option>
+              <option data-i18n="subServices">Services</option>
+              <option data-i18n="subPartnership">Partnership</option>
+            </select>
+          </label>
+        </div>
+        <label style="margin-top:16px"><span data-i18n="message">Message</span><textarea required name="message" rows="5"></textarea></label>
+        <button class="btn btn-forest" type="submit" data-i18n="sendWhatsapp">Send via WhatsApp</button>
+        <p class="note" id="sentNote" data-i18n="sentNote"></p>
+      </form>
+    </div>
+    <div class="wrap">
+      <div class="map-head">
+        <div>
+          <p class="kicker" data-i18n="location">Location</p>
+          <h3 data-i18n="mapTitle">Find us in Arusha</h3>
+          <p class="muted" data-i18n="locationValue">Arusha, Tanzania</p>
+        </div>
+        <a class="btn btn-forest" href="https://www.google.com/maps/search/?api=1&query=Arusha%2C%20Tanzania" target="_blank" rel="noopener noreferrer" data-i18n="mapOpen">Open live map</a>
+      </div>
+      <div class="map-frame">
+        <iframe title="Arusha, Tanzania" src="https://www.google.com/maps?q=Arusha,+Tanzania&hl=en&z=13&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap foot-grid">
+      <div>
+        <img class="logo" src="images/logo.jpg" alt="Makuru Crops Company" />
+        <p style="margin-top:16px;max-width:20rem" data-i18n="footerBlurb"></p>
+        <p style="margin-top:12px;color:#fff" data-i18n="founderName">James Makuru</p>
+        <p data-i18n="founderRole"></p>
+      </div>
+      <div>
+        <h3 data-i18n="footerVisit">Visit</h3>
+        <p><a href="#home" data-i18n="navHome">Home</a></p>
+        <p><a href="#about" data-i18n="navAbout">About Us</a></p>
+        <p><a href="#products" data-i18n="navProducts">Products</a></p>
+        <p><a href="#services" data-i18n="navServices">Services</a></p>
+        <p><a href="#gallery" data-i18n="navGallery">Gallery</a></p>
+        <p><a href="#contact" data-i18n="navContact">Contact</a></p>
+      </div>
+      <div>
+        <h3>WhatsApp</h3>
+        <p><a data-wa="waHello" href="https://wa.me/255798235670" target="_blank" rel="noopener noreferrer">+255 798 235 670</a></p>
+        <p><a href="mailto:makurucrops@gmail.com">makurucrops@gmail.com</a></p>
+        <p data-i18n="locationValue">Arusha, Tanzania</p>
+      </div>
+    </div>
+    <p class="wrap copy">© <span id="year">2026</span> Makuru Crops Company. <span data-i18n="rights">All rights reserved.</span></p>
+  </footer>
+
+  <a class="wa-float" data-wa="waFloat" href="https://wa.me/255798235670" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.15 6.4 2.15 11.83c0 1.74.46 3.44 1.34 4.94L2 22l5.38-1.41a10.1 10.1 0 0 0 4.66 1.12h.01c5.46 0 9.89-4.4 9.89-9.83 0-2.63-1.03-5.1-2.91-6.96A9.93 9.93 0 0 0 12.04 2m0 1.8c2.13 0 4.14.83 5.65 2.33a7.9 7.9 0 0 1 2.34 5.7c0 4.44-3.64 8.05-8.1 8.05a8.3 8.3 0 0 1-3.98-1.02l-.28-.16-3.19.84.85-3.1-.18-.3a8.02 8.02 0 0 1-1.25-4.31c0-4.44 3.65-8.03 8.14-8.03m-2.68 3.9c-.17 0-.44.06-.67.32-.23.26-.88.85-.88 2.08s.9 2.41 1.03 2.58c.12.17 1.75 2.8 4.32 3.81 2.14.85 2.58.68 3.04.64.46-.04 1.49-.6 1.7-1.19.21-.58.21-1.08.15-1.19-.06-.1-.23-.17-.48-.3-.25-.12-1.49-.73-1.72-.81-.23-.09-.4-.12-.56.12-.17.25-.65.81-.8.98-.15.17-.3.19-.55.06-.25-.12-1.06-.39-2.02-1.24-.75-.66-1.25-1.48-1.4-1.73-.15-.25-.02-.39.11-.51.11-.11.25-.3.38-.44.12-.15.17-.25.25-.42.09-.17.04-.32-.02-.44-.06-.12-.55-1.35-.76-1.85-.2-.48-.4-.41-.56-.42z"/></svg>
+    <span data-i18n="chatWhatsapp">Chat on WhatsApp</span>
+  </a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
