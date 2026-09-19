@@ -68,7 +68,7 @@ const I18N = {
     productsLead: "Mahindi, maharagwe, ngwara, na dengu — yaliyochaguliwa, kupimwa, na kuwa tayari soko.",
     maize: "Mahindi", maizeText: "Mahindi yenye mavuno mengi kwa chakula na malisho, yanapatikana kwa jumla na rejareja.",
     beans: "Maharagwe", beansText: "Maharagwe yenye protini, yaliyovunwa na kupimwa kwa kaya, masoko, na usafirishaji.",
-    lablab beans: "Ngwara", lablab beansText: "Ngwara zinazostahimili ukame, zenye ladha na lishe nzuri kwa mapishi ya kila siku.",
+    lablab: "Ngwara / Fiwi", lablabDesc: "Ngwara zinazostahimili ukame, zenye ladha na lishe nzuri kwa mapishi ya kila siku.",
     lentils: "Dengu", lentilsText: "Dengu safi zilizopimwa vizuri, zenye protini na nyuzinyuzi, tayari kwa soko.",
     servicesKicker: "Huduma", servicesTitle: "Kutoka shambani hadi sokoni",
     cropFarming: "Kilimo cha Mazao", cropFarmingText: "Kuandaa ardhi, kupanda, kutunza mimea, na kuvuna kwa mbinu zinazolinda udongo na kuongeza mavuno.",
