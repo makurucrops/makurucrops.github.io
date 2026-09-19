@@ -26,7 +26,7 @@ const I18N = {
     productsLead: "Maize, beans, lablab beans, and lentils — selected, graded, and ready for market.",
     maize: "Maize", maizeText: "High-yielding maize for food and feed, available in bulk and retail quantities.",
     beans: "Beans", beansText: "Protein-rich beans, harvested and graded for households, markets, and export.",
-    lablab beans: "lablab beans", lablab beansText: "Drought-tolerant lablab beans (Ngwara) with strong flavour and nutrition for everyday cooking.",
+    lablab: "Lablab beans", lablabDesc: "Drought-tolerant lablab beans (Ngwara) with strong flavour and nutrition for everyday cooking.",
     lentils: "Lentils", lentilsText: "Clean, well-graded lentils packed with protein and fibre, ready for market.",
     servicesKicker: "Services", servicesTitle: "From field to market",
     cropFarming: "Crop Farming", cropFarmingText: "Land preparation, planting, crop care, and harvesting using practices that protect soil and lift yields.",
