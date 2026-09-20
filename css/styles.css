@@ -188,24 +188,3 @@ footer a:hover { color: var(--paper); }
   .wa-float svg { margin: 0; }
   .gallery img.cover { height: 160px; }
 }
-/* Custom Responsive Adjustments for Mobile Screens */
-@media (max-width: 768px) {
-  h1, .hero h1 {
-    font-size: 1.8rem !important; /* Inapunguza kichwa cha habari kisizoom sana */
-    line-height: 1.25 !important;
-  }
-
-  p, .hero p {
-    font-size: 0.95rem !important; /* Inapunguza ukubwa wa maelezo */
-  }
-
-  .hero, .hero-content {
-    padding: 20px 15px !important; /* Inarekebisha nafasi za pambizoni */
-  }
-
-  .hero-buttons {
-    display: flex !important;
-    flex-direction: column !important;
-    gap: 10px !important;
-  }
-}
