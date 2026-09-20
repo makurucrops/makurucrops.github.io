@@ -188,3 +188,24 @@ footer a:hover { color: var(--paper); }
   .wa-float svg { margin: 0; }
   .gallery img.cover { height: 160px; }
 }
+/* Mobile Responsive Adjustments */
+@media (max-width: 768px) {
+  .wrap, 
+  .hero-content, 
+  .hero {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    box-sizing: border-box !important;
+  }
+
+  .hero h1 {
+    font-size: 2rem !important;
+    line-height: 1.2 !important;
+    margin-bottom: 15px !important;
+  }
+
+  .hero p {
+    font-size: 0.95rem !important;
+    line-height: 1.5 !important;
+  }
+}
